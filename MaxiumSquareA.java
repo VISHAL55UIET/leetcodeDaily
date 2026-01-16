@@ -10,7 +10,7 @@ import java.util.*;
 
 
 /*************************************************************************************************** */
-public class MaxiumSquareArea{
+public class MaxiumSquareA{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int m = sc.nextInt(), n = sc.nextInt();
@@ -65,9 +65,6 @@ class Solution {
         return (int)((ans * ans) % MOD);
     }
 }
-
-
-
 
 
 
