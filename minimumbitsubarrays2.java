@@ -42,7 +42,7 @@ public class minimumbitsubarrays2 {    // minimumbitsubarrays2
 
                 // flip (j-1)-th bit
                 result[i] = num ^ (1 << (j - 1));
-                found = true;
+                found = true;   
                 break;
             }
 
