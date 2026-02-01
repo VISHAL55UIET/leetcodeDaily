@@ -34,3 +34,20 @@ public int minimumCost(int[] nums) {
 /******************************************************************************************* */
 
 
+/*
+
+ME.T.H.O.D=2
+
+
+
+class Solution {
+    public int minimumCost(int[] nums) {
+        int n =  nums.length;
+        int first =  nums[0];
+        Arrays.sort(nums,1,n);
+        return first+nums[1]+nums[2];
+    }
+}
+
+
+*/
