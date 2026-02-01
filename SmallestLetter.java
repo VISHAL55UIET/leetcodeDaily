@@ -5,7 +5,7 @@ import java.util.*;
 
 
 
-   //             T.C=O(n)
+   //              T.C=O(n)
 
 
 
