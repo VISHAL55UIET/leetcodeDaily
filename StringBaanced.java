@@ -32,3 +32,34 @@ public class StringBaanced {
         return del;
     }
 }
+
+
+
+/*********************************************************************************************** */
+
+
+
+// METHOD -2
+
+// USING STACK VERSION
+
+class Solution {
+    public int minimumDeletions(String s) {
+        Stack<Character> stack = new Stack<>();
+        int deletions = 0;
+
+        for (char ch : s.toCharArray()) {
+            if (!stack.isEmpty() && stack.peek() == 'b' && ch == 'a') {
+                // conflict "ba"
+                deletions++;   // delete current 'a'
+            } else {
+                stack.push(ch);
+            }
+        }
+        return deletions;
+    }
+}
+
+
+
+/*********************************************************************************************** */
