@@ -4,8 +4,9 @@ import java.util.*;
 
 
 
+       //T.C = O(N log N)
 
-
+        // S.C = 0(n)
 
 
 
